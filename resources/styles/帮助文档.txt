@@ -1,0 +1,11 @@
+使用QSS（类似CSS）来设置程序控件的样式
+可以用如【点缀色】的方式（带全角方括号）来表示点缀色（即主题色，默认蓝色）
+【点缀色128】表示透明度为128(50%)的点缀色，0为全透明，255为不透明（默认）
+以及【主色调】【副色调】【文字色】，相同的使用方法
+
+教程：
+Qt官方：https://doc.qt.io/archives/qt-4.8/stylesheet-reference.html
+简单的：http://www.manongjc.com/detail/6-lqqoigoszkebvgo.html
+渐变色：https://blog.csdn.net/wzs250969969/article/details/78458151
+
+所有更改均重启程序（或者在设置中修改一下任意颜色）生效。

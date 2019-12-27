@@ -1,0 +1,9 @@
+/**
+ * 设置正文搜索条（Ctrl+F）中的文本框样式
+ */
+QLineEdit
+{
+	background-color:【主色调0】; 
+	border:none;
+	margin-left:10px;
+}

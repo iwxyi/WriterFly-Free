@@ -1,0 +1,5 @@
+<WISH>
+	<MON>10</MON>
+	<DAY>1</DAY>
+	<SAY>国庆快乐！！！</SAY>
+</WISH>

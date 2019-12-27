@@ -1,0 +1,10 @@
+/**
+ * 设置目录、大纲页面的横向分割线
+ * 目录分割线仅在关闭“圆角控件”时才显示
+ */
+QWidget
+{
+	margin-left: 4px;
+	margin-right: 4px;
+	background-color: gray;
+}

@@ -1,0 +1,8 @@
+QTextEdit
+{
+	background: 【主色调128】;
+	border-radius:5px;
+	margin-left:3px;
+	margin-right:3px;
+	padding:5px;
+}

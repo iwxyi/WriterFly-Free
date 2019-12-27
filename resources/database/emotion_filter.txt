@@ -1,0 +1,49 @@
+<FILTER> <NAME> 黑色 </NAME>
+<COLOR> 0,0,0,64 </COLOR> <DICT>
+黑 暗 昏 黝 墨 黯 黛 夜 瞎 乌 玄英 玄青 玄色 幽 冥 狱 暮 毒 星空 寂 阴 晚风 晚上 月 夜幕 死 炭 邪 恶 坟 墓 亡
+</DICT> </FILTER>
+
+<FILTER> <NAME> 白色 </NAME>
+<COLOR> 255,255,255,64 </COLOR> <DICT>
+白 茫 纯 苍 嫩 雪 玉 肤 皓 齿 素 冰 秀 清 洁 兰 梨花 芙蓉 茉莉 栀子 百合 云 卉 天空 苍穹 空中 长空 碧空
+</DICT> </FILTER>
+
+<FILTER> <NAME> 灰色 </NAME>
+<COLOR> 128,128,128,64 </COLOR> <DICT>
+灰 烟 死 冷 惨 黯 烬 陨 沙 朦 骨 岩 石 礁 朽 寒 丧 尘 脏 悲 痛 哭 凄 哀 愁 苦 辛 伤 怜 怨 恨 叹 戚 肠 麻 怅 银
+</DICT> </FILTER>
+
+<FILTER> <NAME> 红色 </NAME>
+<COLOR> 255,0,0 </COLOR> <DICT>
+红 嫣 粉 玫 杜鹃 樱 桃 梅 牡丹 番茄 柿 灼 绯 殷 赤 火 烈 爆 炸 血 腥 猩 喜 庆 夕阳 转
+</DICT> </FILTER>
+
+<FILTER> <NAME> 橙色 </NAME>
+<COLOR> 255,97,0 </COLOR> <DICT>
+橙 桔 橘 田 稻 农 橄榄 向日葵 南瓜 菊 忘忧 热闹 快 乐 欢快 温馨 温暖 阳 光 活泼 愉 悦 笑 甜 蜜 活力 青春 斗 活 蓬勃 昂扬 神采 飞扬 振奋 轩昂 喜 朝气 肉 金 秋 诚 灯 耀 吉 燃
+</DICT> </FILTER>
+
+<FILTER> <NAME> 黄色 </NAME>
+<COLOR> 255,255,77,20 </COLOR> <DICT>
+黄 柠檬 玉米 芥末 杏 姜 土 焦 灿 辉 憔 月 古 咖啡 夕阳 奶油
+</DICT> </FILTER>
+
+<FILTER> <NAME> 绿色 </NAME>
+<COLOR> 54,255,54 </COLOR> <DICT>
+绿 翠 草 茵 叶 柳 碧 荫 葱 铜 春 夏 竹 树 林 木 森
+</DICT> </FILTER>
+
+<FILTER> <NAME> 青色 </NAME>
+<COLOR> 0,255,255 </COLOR> <DICT>
+青 清 碧空 长空 天空
+</DICT> </FILTER>
+
+<FILTER> <NAME> 蓝色 </NAME>
+<COLOR> 0,47,167 </COLOR> <DICT>
+蓝 靛 穹 冰 蔚 湖 海 河 水 天空 宝石 冬 凉 冷 寒 冻
+</DICT> </FILTER>
+
+<FILTER> <NAME> 紫色 </NAME>
+<COLOR> 139,0,255 </COLOR> <DICT>
+紫 绛 木槿 锦葵 丁香 薰衣草 三色堇 缬草 锦葵 葡萄 茄子 魔法 艳 绣球 银莲 风信子 矢车菊 神秘
+</DICT> </FILTER>

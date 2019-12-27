@@ -1,0 +1,78 @@
+/**
+ * 设置全局的控件样式
+ * 很大一部分是为了避免夜间模式颜色太突兀
+ */
+
+QPushButton
+{
+	background-color: 【副色调255】;
+	border:1px groove 【点缀色64】;
+	padding:5px 15px;
+}
+
+QPushButton:hover
+{
+	background-color: 【点缀色64】;
+}
+
+QPushButton:pressed
+{
+	background-color: 【点缀色128】;
+}
+
+QLineEdit
+{
+	background-color: 【副色调255】;
+	border: 1px solid 【文字色】;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+QSpinBox
+{
+	background: 【副色调255】;
+}
+
+QMessageBox
+{
+	background-color: 【主色调255】;
+}
+
+QTabWidget
+{
+	background-color: 【主色调】;
+	border: none;
+}
+
+QTabWidget::tab-bar
+{
+}
+
+QTabBar::tab:hover
+{
+	background-color: 【点缀色64】;
+}
+
+QTabBar::tab
+{
+	background-color: 【主色调】;
+	border: none;
+	padding: 5px 10px;
+}
+
+QTabWidget::pane
+{
+	background-color: 【主色调】;
+	border: none;
+}
+
+QComboBox {
+	color: 【文字色】;
+	background-color: 【副色调】;
+	border: 1 solid 【文字色】;
+}
+ 
+ 
+QComboBox:editable{
+	background-color: 【副色调】;
+}

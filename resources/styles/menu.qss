@@ -1,0 +1,54 @@
+/**
+ * 设置程序中所有菜单的样式
+ */
+QMenu
+{
+  background-color:【主色调255】;
+}
+
+QMenu::icon
+{
+	margin-left: 5px;
+	border-radius: 5px;
+}
+
+QMenu::icon:checked
+{
+  background-color:【点缀色128】;
+  margin-left: 0px;
+  padding: 2px;
+}
+
+QMenu::icon:checked:disabled
+{
+  background-color:【点缀色64】;
+  margin-left: 0px;
+  padding: 2px;
+}
+
+QMenu::item
+{
+  color:【文字色】;
+  border:none;
+  background-color:transparent;
+  padding:5px;
+  padding-left:5px;
+  padding-right:25px;
+  border-radius: 3px;
+}
+
+QMenu::item:selected
+{
+  background-color:【点缀色128】;
+}
+
+QMenu::item:pressed
+{
+  border:none;
+  background-color:【点缀色】;
+}
+
+QMenu::item:disabled
+{
+  color:【文字色64】;
+}

@@ -1,0 +1,14 @@
+<BOOK>
+<ROLL>
+	<RINF><n:作品相关></RINF>
+	<LIST>
+		<CHPT><n:作品简介></CHPT>
+		<CHPT><n:灵感创意></CHPT>
+	</LIST>
+</ROLL>
+<ROLL>
+	<RINF><n:正文></RINF>
+	<LIST>
+	</LIST>
+</ROLL>
+</BOOK>

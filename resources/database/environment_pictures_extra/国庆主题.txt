@@ -1,0 +1,6 @@
+<PICTURE>
+<NAME>国庆</NAME>
+<DICT>
+国庆 国庆节 十一
+</DICT>
+</PICTURE>

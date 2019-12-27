@@ -1,0 +1,308 @@
+【色彩表】			
+黑色 Black	0	0	0
+昏灰 Dimgray	105	105	105
+灰色 Gray	128	128	128
+暗灰 Dark Gray	169	169	169
+銀色 Silver	192	192	192
+淺灰色 Light Gray	211	211	211
+庚斯博羅灰 Gainsboro	220	220	220
+白煙色 White Smoke	245	245	245
+白色 White	255	255	255
+雪色 Snow	255	250	250
+沙棕 Sand Beige	230	195	195
+玫瑰褐 Rosy Brown	188	143	143
+亮珊瑚色 Light Coral	240	128	128
+印度紅 Indian Red	205	92	92
+褐色 Brown	165	42	42
+耐火磚紅 Fire Brick	178	34	34
+栗色 Maroon	128	0	0
+暗紅 Dark Red	139	0	0
+鮮紅 Strong Red	230	0	0
+紅色 Red	255	0	0
+柿子橙 Persimmon	255	77	64
+霧玫瑰色 Misty Rose	255	228	225
+鮭紅 Salmon	250	128	114
+腥紅 Scarlet	255	36	0
+番茄紅 Tomato	255	99	71
+暗鮭紅 Dark Salmon	233	150	122
+珊瑚紅 Coral	255	127	80
+橙紅 Orange Red	255	69	0
+亮鮭紅 Light Salmon	255	160	122
+朱紅 Vermilion	255	77	0
+黃土赭 Sienna	160	82	45
+熱帶橙 Tropical Orange	255	128	51
+駝色 Camel	161	107	71
+Apricot杏黃 	230	153	102
+椰褐 Coconut Brown	77	31	0
+海貝色 Seashell	255	245	238
+鞍褐 Saddle Brown	139	69	19
+巧克力色 Chocolate	210	105	30
+燃橙 Burnt Orange	204	85	0
+陽橙 Sun Orange	255	115	0
+粉撲桃色 Peach Puff	255	218	185
+沙褐 Sand Brown	244	164	96
+古銅色 Bronze	184	115	51
+亞麻色 Linen	250	240	230
+蜜橙 Honey Orange	255	179	102
+秘魯色 Peru	205	133	63
+烏賊墨色 Sepia	112	66	20
+赭色 Ocher	204	119	34
+陶坯黃 Bisque	255	228	196
+橘色 Tangerine	242	133	0
+暗橙 Dark Orange	255	140	0
+古董白 Antique White	250	235	215
+日曬色 Tan	210	180	140
+硬木色 Burly Wood	222	184	135
+杏仁白 Blanched Almond	255	235	205
+那瓦霍白 Navajo White	255	222	173
+萬壽菊黃 Marigold	255	153	0
+番木瓜色 Papaya Whip	255	239	213
+灰土色 Pale Ocre	204	179	140
+卡其色 Khaki	153	107	31
+鹿皮鞋色 Moccasin	255	228	181
+舊蕾絲色 Old Lace	253	245	230
+小麥色 Wheat	245	222	179
+桃色 Peach	255	229	180
+橙色 Orange	255	165	0
+花卉白 Floral White	255	250	240
+金菊色 Goldenrod	218	165	32
+暗金菊色 Dark Goldenrod	184	134	11
+咖啡色 Coffee	77	57	0
+茉莉黃 Jasmine	230	195	92
+琥珀色 Amber	255	191	0
+玉米絲色 Cornsilk	255	248	220
+鉻黃 Chrome Yellow	230	184	0
+金色 Golden	255	215	0
+檸檬綢色 Lemon Chiffon	255	250	205
+亮卡其色 Light Khaki	240	230	140
+灰金菊色 Pale Goldenrod	238	232	170
+暗卡其色 Dark Khaki	189	183	107
+含羞草黃 Mimosa	230	217	51
+奶油色 Cream	255	253	208
+象牙色 Ivory	255	255	240
+棕色 Beige	245	245	220
+亮黃 Light Yellow	255	255	224
+亮金菊黃 Light Goldenrod Yellow	250	250	210
+香檳黃 Champagne Yellow	255	255	153
+芥末黃 Mustard	204	204	77
+月黃 Moon Yellow	255	255	77
+橄欖色 Olive	128	128	0
+鮮黃 Canary Yellow	255	255	0
+黃色 Yellow	255	255	0
+苔蘚綠 Moss Green	105	119	35
+亮檸檬綠 Light Lime	204	255	0
+橄欖軍服綠 Olive Drab	107	142	35
+黃綠 Yellow Green	154	205	50
+暗橄欖綠 Dark Olive Green	85	107	47
+蘋果綠 Apple Green	140	230	0
+綠黃 Green Yellow	173	255	47
+草綠 Grass Green	153	230	77
+草坪綠 Lawn Green	124	252	0
+查特酒綠 Chartreuse	127	255	0
+葉綠 Foliage Green	115	184	57
+嫩綠 Fresh Leaves	153	255	77
+明綠 Bright Green	102	255	0
+鈷綠 Cobalt Green	102	255	89
+蜜瓜綠 Honeydew	240	255	240
+暗海綠 Dark Sea Green	143	188	143
+淺綠 Light Green	144	238	144
+灰綠 Pale Green	152	251	152
+常春藤綠 Ivy Green	54	191	54
+森林綠 Forest Green	34	139	34
+檸檬綠 Lime Green	50	205	50
+暗綠 Dark Green	0	100	0
+綠色 Green	0	128	0
+檸檬綠 Lime	0	255	0
+孔雀石綠 Malachite	34	195	46
+薄荷綠 Mint	22	152	43
+青瓷綠 Celadon Green	115	230	140
+碧綠 Emerald	80	200	120
+綠松石綠 Turquoise Green	77	230	128
+鉻綠 Veridian	18	116	54
+蒼色 Horizon Blue	166	255	204
+海綠 Sea Green	46	139	87
+中海綠 Medium Sea Green	60	179	113
+薄荷奶油色 Mint Cream	245	255	250
+春綠 Spring Green	0	255	128
+孔雀綠 Peacock Green	0	161	92
+中春綠色 Medium Spring Green	0	250	154
+中碧藍色 Medium Aquamarine	102	205	170
+碧藍色 Aquamarine	127	255	212
+青藍 Cyan Blue	13	191	140
+水藍 Aqua Blue	102	255	230
+綠松石藍 Turquoise Blue	51	230	204
+綠松石色 Turquoise	48	213	200
+淺海綠 Light Sea Green	32	178	170
+中綠松石色 Medium Turquoise	72	209	204
+淺青 Light Cyan	224	255	255
+淺藍 Baby Blue	224	255	255
+灰綠松石色 Pale Turquoise	175	238	238
+暗岩灰 Dark Slate Gray	47	79	79
+鳧綠 Teal	0	128	128
+暗青 Dark Cyan	0	139	139
+青色 Cyan	0	255	255
+水色 Aqua	0	255	255
+暗綠松石色 Dark Turquoise	0	206	209
+軍服藍 Cadet Blue	95	158	160
+孔雀藍 Peacock Blue	0	128	140
+嬰兒粉藍 Powder Blue	176	224	230
+濃藍 Strong Blue	0	99	116
+淺藍 Light Blue	173	216	230
+灰藍 Pale Blue	122	184	204
+薩克斯藍 Saxe Blue	71	152	179
+深天藍 Deep Sky Blue	0	191	255
+天藍 Sky Blue	135	206	235
+淺天藍 Light Sky Blue	135	206	250
+水手藍 Marine Blue	0	71	125
+鋼藍 Steel Blue	70	130	180
+愛麗絲藍 Alice Blue	240	248	255
+岩灰 Slate Gray	112	128	144
+亮岩灰 Light Slate Gray	119	136	153
+道奇藍 Dodger Blue	30	144	255
+礦藍 Mineral Blue	0	77	153
+湛藍 Azure	0	127	255
+韋奇伍德瓷藍 Wedgwood Blue	86	134	191
+亮鋼藍 Light Steel Blue	176	196	222
+鈷藍 Cobalt Blue	0	71	171
+灰丁寧藍 Pale Denim	94	134	193
+矢車菊藍 Cornflower Blue	100	149	237
+鼠尾草藍 Salvia Blue	77	128	230
+暗嬰兒粉藍 Dark Powder Blue	0	51	153
+藍寶石色 Sapphire	8	37	103
+國際奇連藍 International Klein Blue	0	47	167
+蔚藍 Cerulean blue	42	82	190
+品藍 Royal Blue	65	105	225
+暗礦藍 Dark Mineral Blue	36	54	125
+極濃海藍 Ultramarine	0	51	255
+天青石藍 Lapis Lazuli	13	51	255
+幽靈白 Ghost White	248	248	255
+薰衣草紫 Lavender	230	230	250
+長春花色 Periwinkle	204	204	255
+午夜藍 Midnight Blue	25	25	112
+藏青 Navy Blue	0	0	128
+暗藍 Dark Blue	0	0	139
+中藍 Medium Blue	0	0	205
+藍色 Blue	0	0	255
+紫藤色 Wisteria	92	80	230
+暗岩藍 Dark Slate Blue	72	61	139
+岩藍 Slate Blue	106	90	205
+中岩藍 Medium Slate Blue	123	104	238
+木槿紫 Mauve	102	64	255
+紫丁香色 Lilac	179	153	255
+中紫紅 Medium Purple	147	112	219
+紫水晶色 Amethyst	102	51	204
+淺灰紫紅 Grayish Purple	134	116	161
+纈草紫 Heliotrope	80	0	184
+礦紫 Mineral Violet	184	161	207
+藍紫 Blue Violet	138	43	226
+紫色 Violet	139	0	255
+靛色 Indigo	75	0	128
+暗蘭紫 Dark Orchid	153	50	204
+暗紫 Dark Violet	148	0	211
+三色堇紫 Pansy	116	0	161
+錦葵紫 Mallow	217	77	255
+優品紫紅 Opera Mauve	230	128	255
+中蘭紫 Medium Orchid	186	85	211
+淡紫丁香色 Pail Lilac	230	207	230
+薊紫 Thistle	216	191	216
+鐵線蓮紫 Clematis	204	163	204
+李紫 Plum	221	160	221
+亮紫 Light Violet	238	130	238
+紫紅 Purple	128	0	128
+暗洋紅 Dark Magenta	139	0	139
+洋紅 Magenta	255	0	255
+品紅 Fuchsia	255	0	255
+蘭紫 Orchid	218	112	214
+淺珍珠紅 Pearl Pink	255	179	230
+陳玫紅 Old Rose	184	87	152
+淺玫瑰紅 Rose Pink	255	102	204
+中青紫紅 Medium Violet Red	199	21	133
+玫瑰紅 Rose Red	255	13	166
+紅寶石色 Ruby	204	0	128
+山茶紅 Camellia	230	57	149
+深粉紅 Deep Pink	255	20	147
+火鶴紅 Flamingo	230	138	184
+淺珊瑚紅 Coral Pink	255	128	191
+暖粉紅 Hot Pink	255	105	180
+勃艮第酒紅 Burgundy	71	0	36
+尖晶石紅 Spinel Red	255	115	179
+胭脂紅 Carmine	230	0	92
+淺粉紅 Baby Pink	255	217	230
+樞機紅 Cardinal Red	153	0	54
+薰衣草紫紅 Lavender Blush	255	240	245
+灰紫紅 Pale Violet Red	219	112	147
+櫻桃紅 Cerise	222	49	99
+淺鮭紅 Salmon Pink	255	128	153
+緋紅 Crimson	220	20	60
+粉紅 Pink	255	192	203
+亮粉紅 Light Pink	255	182	193
+殼黃紅 Shell Pink	255	179	191
+茜紅 Alizarin Crimson	227	38	54
+
+【常用色系】			
+紅色 red	255	0	0
+猩紅色 scarlet	255	36	0
+朱紅色 vermilion	255	77	0
+橙色 orange	255	165	0
+琥珀色 amber	255	191	0
+金色 gold	255	215	0
+黃色 yellow	255	255	0
+檸檬綠色 lime	204	255	0
+黃綠色 bright green	102	255	0
+綠色 green	0	255	0
+青色 cyan	0	255	255
+蔚藍色 azure	0	127	255
+藍色 blue	0	0	255
+藍綠色 Aquamarine	127	255	212
+淺藍色 Baby blue	224	255	255
+愛麗絲藍 Alice-Blue	240	248	245
+綠松色 Turquoise	0	127	255
+矢車菊藍 Cornflower blue	100	149	237
+粉末藍 Powder blue	0	51	153
+皇室藍 Royal blue	65	105	225
+午夜藍 Midnight Blue	0	51	102
+天青藍 Cerulean blue	42	82	190
+鈷藍色 Cobalt blue	0	71	171
+道奇藍 Dodger blue	30	144	255
+國際奇連藍 International Klein Blue	0	47	167
+海軍藍 Navy blue	0	0	128
+白牛仔布色 Pale Denim	94	134	193
+長春花色 Periwinkle	204	204	255
+青玉色 Sapphire	8	37	103
+紫色 purple	139	0	255
+深茜紅 Alizarin Crimson	227	38	54
+品紅色 magenta	255	0	255
+
+【深色系】			
+栗色 maroon	128	0	0
+橙黃色 tangerine	255	204	0
+橄欖色 olive	128	128	0
+春綠色 spring green	0	255	128
+鴨綠色 teal	0	128	128
+海軍藍 navy	0	0	128
+靛色 ndigo	75	0	128
+
+【浅色系】			
+鮭肉色 salmon	255	140	105
+桃色 peach	255	229	180
+奶油色 cream	255	253	208
+米色 beige	245	245	220
+薰衣草色 lavender	230	230	250
+蘭花色 orchid	218	112	214
+粉紅色 pink	255	192	203
+
+【中性色系】			
+珊瑚紅 coral	255	127	80
+燃橙色 burnt orange	204	85	0
+古銅色 bronze	184	115	51
+赭色 ocher	204	119	34
+墨褐色 sepia	112	66	20
+寶石綠 Emerald	80	200	120
+櫻桃色 Cerise	222	49	99
+
+【无彩色系】			
+白色 white	255	255	255
+銀色 silver	192	192	192
+灰色 gray	128	128	128
+暗灰色 dimgray	64	64	64
+黑色 black	0	0	0

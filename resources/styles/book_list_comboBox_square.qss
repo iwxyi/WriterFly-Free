@@ -1,0 +1,34 @@
+/**
+ * 设置中关闭“圆角控件”时的作品下拉列表样式
+ * 包括无边框显示效果、用户小说列表
+ */
+QComboBox
+{
+	margin:4px;
+	margin-left: 13px;
+	margin-right: 13px;
+	padding: 4px;
+	padding-left:8px;
+	border:none;
+	background: rgba(0,0,0,0%);
+}
+
+QComboBox:hover
+{
+	background: 【点缀色64】;
+}
+
+QComboBox::drop-down
+{
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	border-left-width: 0px;
+	border-left-color: darkgray;
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+QComboBox::down-arrow
+{
+	image: url(:/icons/arrow_down_combo);
+}

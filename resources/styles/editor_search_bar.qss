@@ -1,0 +1,9 @@
+/**
+ * 设置正文搜索条（Ctrl+F）整体样式
+ */
+QWidget
+{
+	background-color:【主色调】; 
+	border:none; 
+	border-radius:3px;
+}

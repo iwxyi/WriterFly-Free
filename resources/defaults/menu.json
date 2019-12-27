@@ -1,0 +1,326 @@
+[
+	{
+		"name" : "作品",
+		"menus" : [
+			{
+				"name" : "新建作品",
+				"command" : "新建作品"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "添加新卷",
+				"command" : "添加新卷"
+			},
+			{
+				"name" : "添加新章",
+				"command" : "添加新章"
+			},
+			{
+				"name" : "后面插入章节",
+				"command" : "后面添加章节"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "作品一览",
+				"command" : "作品信息一览"
+			}
+		]
+	},
+	{
+		"name" : "大纲",
+		"menus" : [
+			{
+				"name" : "新建故事线",
+				"command" : "新建故事线"
+			},
+			{
+				"name" : "编辑故事线",
+				"command" : "编辑故事线"
+			},
+			{
+				"name" : "重命名故事线",
+				"command" : "重命名故事线"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "故事线帮助",
+				"command" : "故事线帮助"
+			}
+		]
+	},
+	{
+		"name" : "编辑",
+		"menus" : [
+			{
+				"name" : "撤销",
+				"command" : "撤销"
+			},
+			{
+				"name" : "重做",
+				"command" : "重做"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "剪切",
+				"command" : "剪切"
+			},
+			{
+				"name" : "复制",
+				"command" : "复制"
+			},
+			{
+				"name" : "粘贴",
+				"command" : "粘贴"
+			},
+			{
+				"name" : "全选",
+				"command" : "全选"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "查找",
+				"command" : "查找"
+			},
+			{
+				"name" : "替换",
+				"command" : "替换"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "章节",
+				"menus" : [
+					{
+						"name" : "定位到目录",
+						"command" : "定位到目录"
+					},
+					{
+						"name" : "尝试定位到大纲",
+						"command" : "尝试定位到大纲"
+					},
+					{
+						"seperator" : ""
+					},
+					{
+						"name" : "上一章",
+						"command" : "上一章"
+					},
+					{
+						"name" : "下一章",
+						"command" : "下一章"
+					},
+					{
+						"name" : "移动到上一章末尾",
+						"command" : "移动到上一章末尾"
+					},
+					{
+						"name" : "移动到下一章开头",
+						"command" : "移动到下一章开头"
+					},
+					{
+						"name" : "分割后文到新章",
+						"command" : "分割后文到新章"
+					}
+				]
+			},
+			{
+				"name" : "一键排版",
+				"command" : "一键排版"
+			}
+		]
+	},
+	{
+		"name" : "转换",
+		"menus" : [
+			{
+				"name" : "敏感词高亮",
+				"command" : "敏感词高亮"
+			},
+			{
+				"name" : "敏感词消除",
+				"command" : "敏感词消除"
+			},
+			{
+				"name" : "敏感词替换",
+				"command" : "敏感词替换"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "编辑敏感词列表",
+				"command" : "云同步"
+			},
+			{
+				"name" : "编辑敏感词替换列表",
+				"command" : "编辑敏感词替换列表"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "错词高亮",
+				"command" : "错词高亮"
+			},
+			{
+				"name" : "词语纠错",
+				"command" : "词语纠错"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "简转繁",
+				"command" : "简转繁"
+			},
+			{
+				"name" : "繁转简",
+				"command" : "繁转简"
+			}
+		]
+	},
+	{
+		"name" : "素材",
+		"menus" : [
+			{
+				"name" : "综合搜索",
+				"command" : "综合搜索"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "随机取名",
+				"command" : "综合搜索 随机取名"
+			},
+			{
+				"name" : "传统人名",
+				"command" : "综合搜索 人名"
+			},
+			{
+				"name" : "地名",
+				"command" : "综合搜索 地名"
+			},
+			{
+				"name" : "魔兽名",
+				"command" : "综合搜索 魔兽名"
+			},
+			{
+				"name" : "门派名",
+				"command" : "综合搜索 门派"
+			},
+			{
+				"name" : "言情书名",
+				"command" : "综合搜索 言情书名"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "相关词",
+				"command" : "综合搜索 词语"
+			},
+			{
+				"name" : "常用句",
+				"command" : "综合搜索 句子"
+			},
+			{
+				"name" : "近义词",
+				"command" : "综合搜索 近义词列表"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "汉语词典",
+				"command" : "综合搜索 内容"
+			}
+		]
+	},
+	{
+		"name" : "同步",
+		"menus" : [
+			{
+				"name" : "云同步",
+				"command" : "云同步"
+			}
+		]
+	},
+	{
+		"name" : "视图",
+		"menus" : [
+			{
+				"name" : "日/夜间模式",
+				"command" : "日/夜间模式"
+			},
+			{
+				"name" : "全屏",
+				"command" : "全屏"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "显示/隐藏侧边栏",
+				"command" : "显示/隐藏侧边栏"
+			},
+			{
+				"name" : "显示/隐藏菜单栏",
+				"command" : "显示/隐藏菜单栏"
+			}
+		]
+	},
+	{
+		"name" : "工具",
+		"menus" : [
+			{
+				"name" : "设置",
+				"command" : "设置"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "字数统计",
+				"command" : "字数统计"
+			},
+			{
+				"name" : "小黑屋",
+				"command" : "小黑屋"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "剪贴板",
+				"command" : "剪贴板"
+			},
+			{
+				"name" : "回收板",
+				"command" : "回收板"
+			},
+			{
+				"seperator" : ""
+			},
+			{
+				"name" : "码字风云榜",
+				"command" : "码字风云榜"
+			},
+			{
+				"name" : "官网",
+				"command" : "官网"
+			}
+		]
+	}
+]

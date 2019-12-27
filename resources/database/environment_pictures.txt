@@ -1,0 +1,87 @@
+文件放在：安装路径/default/environment_pictures/分类名称.jpg或png
+如果使用同名文件夹代替图片文件，则随机抽取文件夹中的一张
+多张图片冲突时，选择出现关键词最多的（可重复关键词来增加程度）
+
+标签说明：
+PICTURE：每个分类的主标签
+NAME：图片的文件名(不包括后缀)/文件夹
+DICT：关键词，空格分隔
+OPACITY：最大不透明度(0~255)，关键词出现越多，不透明度越高
+APPEAR：最小出现关键词数量
+ALIGAN：对齐方式，默认全拉伸，可使用：full/center/top/bottom/left/right/top left/top right/bottom left/bottom right
+
+<PICTURE>
+<NAME>天空</NAME>
+<DICT>
+天空 苍穹 碧空 湛蓝 云 青天 蓝天 高远 阳 昊天 皓日 太阳 长空 晴空
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>大海</NAME>
+<DICT>
+海 湖 江河 波澜 波涛 海阔 涛 浪 水 波光 海面 水面 荡漾 清澈 烟波 洪水
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>树林</NAME>
+<DICT>
+树 林 葱 山 绿 芽 枝 藤 翠 参天 柏 松 竹 青
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>夕阳</NAME>
+<DICT>
+夕阳 夕阳 霞 晚霞 日薄 红 落日 余晖 残阳 黄昏 日影 斜阳 日落 日头 阳西 余辉 金辉
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>夜空</NAME>
+<OPACITY>64</OPACITY>
+<DICT>
+夜 晚 星 月 寂 星空 寒 黑 幽 宵 黑漆漆 更深 半夜 三根 夜空 夜幕 夜色 夜深 昏暗 银河
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>樱花</NAME>
+<APPEAR>1</APPEAR>
+<DICT>
+樱花 赏樱 落英 缤纷 绚烂 花团 百花 赏花 烂漫 花开 满树 樱美 美樱 
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>雪天</NAME>
+<OPACITY>64</OPACITY>
+<DICT>
+雪 冰 霜 雪地 下雪 雪天 雪花 飞雪 雪团 雪景 风雪 鸡血 雪飘 暴雪 大雪 雪停 雪山 雪崩 雪水 云雪 雪人 雪声 雪车 雪梅 雪滩 新雪 冻雪 结冰 雪仗 雪球
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>雨天</NAME>
+<DICT>
+下雨 雨天 这雨 那雨 雨滴 雨点 风雨 雨幕 雨披 伞 雨势 雨水 雨丝 雨雾 雨珠 雨后 雨蓑 雨季 大雨 暴雨 细雨 暴雨 雨点 小雨 雨靴 中雨 雨蛙 雨具 喜雨 梅雨 雨月 雨衣 雨意 鸣雨 透雨 阵雨 雷雨 避雨 微雨 冒雨毛雨 雨帘 降雨 雨烟 阴雨 淋雨 倾盆 骤雨 飘洒
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>墓地</NAME>
+<APPEAR>1<APPEAR>
+<DICT>
+墓 冢 鬼 尸
+</DICT>
+</PICTURE>
+
+<PICTURE>
+<NAME>战争</NAME>
+<APPEAR>4</APPEAR>
+<OPACITY>50</OPACITY>
+<DICT>
+战争 军事 枪 炮火 兵 军 敌 子弹 弹头 弹壳 阵地 兵力 轰炸 弹道 火炮 军令 地雷 水雷 导弹 自毁 制导 机动性 迫击炮 扫荡 战备 部队 炮口 基地 火力 杀伤性 核弹 核爆炸 核武器 雷达 爆破 战俘 侦查 侦察 备役 装弹 装药 舰艇 舰炮 特种 扫射 爆炸
+</DICT>
+</PICTURE>

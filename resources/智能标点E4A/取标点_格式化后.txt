@@ -1,0 +1,1026 @@
+if (sent.indexOf("是不") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (canRegExp(sent, "是不.的") == true)
+        punc = "。";
+    else if (sent.indexOf("本来是不") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("是么") > -1)
+    punc = "？";
+else if (sent.indexOf("管不管") > -1)
+    punc = "？";
+else if (sent.indexOf("不管") > -1)
+    punc = "。";
+else if (sent.indexOf("反正") > -1)
+    punc = "。";
+else if (sent.indexOf("怎么知") > -1)
+    punc = "？";
+else if (sent.indexOf("么会") > -1)
+    punc = "？";
+else if (sent.indexOf("真") > -1 && sent.indexOf("真理") == -1 && sent.indexOf("真假") == -1 && sent.indexOf("真事") == -1)
+    if (sent.indexOf("真的") > -1 || sent.indexOf("真是") > -1)
+        if (sent.indexOf("真的是") > -1 || sent.indexOf("真是") > -1)
+            if (sent.indexOf("啊") > -1)
+                punc = "！";
+            else if (sent.indexOf("吗") > -1)
+                punc = "？";
+            else if (sent.indexOf("啦") > -1)
+                punc = "！";
+            else if (sent.indexOf("呀") > -1)
+                punc = "！";
+            else if (sent.indexOf("了") > -1)
+                punc = "？";
+            else if (tone == 1)
+                punc = "！";
+            else if (tone == 2)
+                punc = "？";
+            else if (sent.indexOf("真是不") > -1)
+                punc = "！";
+            else
+                punc = "。";
+        else if (sent == "真的")
+            if (tone == 2)
+                punc = "？";
+            else
+                punc = "。";
+        else if (sent.indexOf("真的好") > -1 || sent.indexOf("真的很") > -1 || sent.indexOf("真的非常") > -1 || sent.indexOf("真的太") > -1 || sent.indexOf("真的特") > -1)
+            if (sent.indexOf("吗") > -1)
+                punc = "？";
+            else if (tone == 0)
+                punc = "。";
+            else if (tone == 2)
+                punc = "？";
+            else
+                punc = "！";
+        else if (sent.indexOf("怎么") > -1)
+            punc = "？";
+        else if (sent.indexOf("难道") > -1)
+            punc = "？";
+        else if (isKnowFormat(sent) == true)
+            punc = "。";
+        else if (sent.indexOf("真的是我") > -1)
+            punc = "。";
+        else if (sent.indexOf("如何") > -1)
+            punc = "？";
+        else if (sent.indexOf("啊") > -1)
+            punc = "！";
+        else if (sent.indexOf("吗") > -1)
+            punc = "？";
+        else if (sent.indexOf("啦") > -1)
+            punc = "！";
+        else if (sent.indexOf("呀") > -1)
+            punc = "！";
+        else if (tone == 1)
+            punc = "！";
+        else if (tone == 2)
+            punc = "？";
+        else if (sent.indexOf("就真的不是") > -1)
+            punc = "。";
+        else if (sent.indexOf("不是") > -1)
+            punc = "？";
+        else
+            punc = "。";
+    else if (sent.indexOf("你真") > -1)
+        if (sent.indexOf("不") > -1 || sent.indexOf("了") > -1)
+            if (tone == 1)
+                punc = "！";
+            else if (tone == 0)
+                punc = "。";
+            else
+                punc = "？";
+        else if (tone == 2)
+            punc = "？";
+        else if (tone == 0)
+            punc = "。";
+        else
+            punc = "！";
+    else if (sent.indexOf("他真") > -1)
+        if (sent.indexOf("不") > -1 || sent.indexOf("了") > -1)
+            if (tone == 1)
+                punc = "！";
+            else if (tone == 0)
+                punc = "。";
+            else
+                punc = "？";
+        else if (tone == 2)
+            punc = "？";
+        else if (tone == 0)
+            punc = "。";
+        else
+            punc = "！";
+    else if (sent.indexOf("她真") > -1)
+        if (sent.indexOf("不") > -1 || sent.indexOf("了") > -1)
+            if (tone == 1)
+                punc = "！";
+            else if (tone == 0)
+                punc = "。";
+            else
+                punc = "？";
+        else if (tone == 2)
+            punc = "？";
+        else if (tone == 0)
+            punc = "。";
+        else
+            punc = "！";
+    else if (isKnowFormat(sent) == true)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 2)
+        punc = "？";
+    else
+        punc = "。";
+else if (sent.indexOf("是否") > -1)
+    if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("是不是") > -1)
+    if (isKnowFormat(sent) == true)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("可能是") > -1 && canRegExp(sent, ".*[特别|真的|格外|非常].*") == true)
+    punc = "！";
+else if (sent.indexOf("知不知") > -1)
+    punc = "？";
+else if (sent.indexOf("需不需") > -1)
+    if (isKnowFormat(sent) == true && sent.indexOf("怎么") == -1 && sent.indexOf("为什么") == -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("要不要") > -1)
+    if (isKnowFormat(sent) == true)
+        punc = "。";
+    else if (sent.indexOf("你") == -1)
+        punc = "？";
+    else if (sent.indexOf("犹豫要") > -1 || sent.indexOf("在想") > -1 || sent.indexOf("思考") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("要不是") > -1)
+    punc = "。";
+else if (canRegExp(sent, "(.{1,2})不\\1") == true)
+    if (isKnowFormat(sent) == true && sent.indexOf("怎么") == -1 && sent.indexOf("为什么") == -1 && sent.indexOf("难道") == -1)
+        punc = "。";
+    else if (sent.indexOf("时不时") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.length()  > 2 && sent.right(1) == "不" && sent.indexOf("不不") == -1)
+    punc = "？";
+else if (sent.indexOf("还不") > -1)
+    if (sent.indexOf("给我") > -1)
+        punc = "！";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (sent.indexOf("吧") > -1)
+        punc = "？";
+    else if (sent.indexOf("吗") > -1)
+        punc = "？";
+    else if (sent.indexOf("嘛") > -1)
+        punc = "？";
+    else if (sent.indexOf("啊") > -1)
+        punc = "！";
+    else if (sent.indexOf("不至于") > -1)
+        punc = "。";
+    else if (sent.indexOf("不如") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("不要") > -1 && sent.indexOf("吗") == -1 && sent.indexOf("吧") == -1 && sent.indexOf("呢") == -1 && sent.indexOf("了") == -1)
+    punc = "！";
+else if (sent.indexOf("不可思议") > -1)
+    punc = "！";
+else if (sent.indexOf("誓不") > -1)
+    punc = "！";
+else if (sent.indexOf("都要") > -1 && sent.indexOf("吗") == -1 && sent.indexOf("吧") == -1 && sent.indexOf("呢") == -1 && sent.indexOf("了") == -1)
+    if (sent.indexOf("你都要") > -1 && sent.indexOf("这") > -1 && sent.indexOf("这") > sent.indexOf("你都要"))
+        punc = "？";
+    else
+        punc = "！";
+else if (sent == "我要")
+    punc = "！";
+else if (sent == "不要")
+    punc = "！";
+else if (sent == "要")
+    punc = "。";
+else if (sent == "反正")
+    punc = "。";
+else if (sent == "那就是说" && sent.length()  > 6 && sent.right(1) == "了")
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("居然") > -1 && sent.length()  >= 3 && sent.right(3).indexOf("居然") > -1)
+    punc = "……";
+else if (sent.indexOf("居然") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("绝对") > -1)
+    punc = "！";
+else if (sent.indexOf("一定") > -1 && sent.indexOf("有一定") == -1 && sent.indexOf("一定的") == -1 && sent.indexOf("不一定") == -1 && sent.indexOf("一定的") == -1)
+    punc = "！";
+else if (sent.indexOf("你居然") > -1)
+    punc = "！";
+else if (sent.indexOf("甚至") > -1)
+    punc = "！";
+else if (sent.indexOf("简直") > -1)
+    punc = "！";
+else if (sent.indexOf("必定") > -1)
+    punc = "！";
+else if (sent.indexOf("要不") > -1)
+    if (sent == "要不")
+        punc = "，";
+    else
+        punc = "？";
+else if (sent.indexOf("可不") > -1)
+    punc = "？";
+else if (sent.indexOf("行不") > -1)
+    punc = "？";
+else if (sent.indexOf("不就") > -1)
+    punc = "？";
+else if (sent.indexOf("多少") > -1)
+    if (sent.indexOf("没") > -1)
+        punc = "。";
+    else if (sent.indexOf("多少") < sent.indexOf("是"))
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("多久") > -1)
+    if (sent.indexOf("没有") > -1 && sent.indexOf("没有") < sent.indexOf("多久"))
+        punc = "。";
+    else if (sent.indexOf("没多久") > -1)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("有多") > -1)
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("都要") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("么") > -1)
+    if (sent.indexOf("什么") > -1)
+    {
+        int shenme_pos = sent.indexOf("什么");
+        if (tone == 1)
+            punc = "！";
+        else if (tone == 2)
+            punc = "？";
+        else if (tone == 0)
+            punc = "。";
+        else if (sent.indexOf("还") > -1)
+            if (isKnowFormat(sent) == true)
+                punc = "。";
+            else if (sent.indexOf("以为") > -1)
+                punc = "。";
+            else
+                punc = "？";
+        else if (sent.indexOf("似乎") > -1)
+            punc = "。";
+        else if (sent.indexOf("好像") > -1)
+            punc = "。";
+        else if (sent.indexOf("都不") > -1)
+            punc = "。";
+        else if (sent.indexOf("都") > -1 && sent.indexOf("来") > -1)
+            punc = "。";
+        else if (sent.indexOf("或许") > -1)
+            punc = "。";
+        else if (sent.indexOf("说不定") > -1)
+            punc = "。";
+        else if (sent.indexOf("可能") > -1)
+            punc = "。";
+        else if (sent.indexOf("仿佛") > -1)
+            punc = "。";
+        else if (sent.indexOf("要发生什么") > -1)
+            punc = "。";
+        else if (sent.indexOf("没") > -1 && sent.indexOf("没") < shenme_pos)
+            punc = "。";
+        else if (sent.indexOf("肯定") > -1 && sent.indexOf("肯定") < shenme_pos)
+            punc = "。";
+        else if (sent.indexOf("决定") > -1)
+            punc = "。";
+        else if (sent.indexOf("不出") > -1)
+            punc = "。";
+        else if (sent.indexOf("不是") > -1 && sent.indexOf("不是") < shenme_pos)
+            punc = "。";
+        else if (sent.indexOf("不到") > -1 && sent.indexOf("不到") < shenme_pos)
+            punc = "。";
+        else if (sent.indexOf("不了") > -1)
+            punc = "。";
+        else if (sent.indexOf("多么") > -1)
+            if (sent.indexOf("啊") > -1)
+                punc = "！";
+            else
+                punc = "。";
+        else if (sent.indexOf("什么都") > -1)
+            if (sent.indexOf("怎么") > -1)
+                if (sent.indexOf("不") > -1)
+                    punc = "。";
+                else
+                    punc = "？";
+            else if (sent.indexOf("什么都要") > -1)
+                punc = "！";
+            else
+                punc = "。";
+        else if (sent.indexOf("什么的") > -1)
+            punc = "。";
+        else if (sent.indexOf("的什么东西") > -1)
+            punc = "。";
+        else if (sent.indexOf("说了什么") > -1 && sent.indexOf("的", sent.indexOf("说了什么") + 1) > -1)
+            punc = "。";
+        else if (sent.indexOf("到底") > -1)
+            punc = "！";
+        else if (sent.indexOf("情况") > -1)
+            punc = "？";
+        else if (isKnowFormat(sent) == true)
+            punc = "。";
+        else
+            punc = "？";
+    }
+    else if (sent.indexOf("怎么") > -1 && sent.indexOf("不怎么") == -1 && sent.indexOf("怎么也") == -1)
+        if (isKnowFormat(sent) == true && sent.indexOf("都知道") == -1)
+            if (sent.indexOf("怎么知") > -1)
+                punc = "？";
+            else if (sent.indexOf("怎么懂") > -1)
+                punc = "？";
+            else if (tone == 2)
+                punc = "？";
+            else if (tone == 1)
+                punc = "！";
+            else
+                punc = "。";
+        else if (tone == 1)
+            punc = "！";
+        else if (tone == 0)
+            punc = "。";
+        else if (sent == "怎么")
+            punc = "，";
+        else if (sent.indexOf("吗") > -1)
+            punc = "？";
+        else if (sent.indexOf("啊") > -1)
+            punc = "？";
+        else if (sent.indexOf("吧") > -1)
+            punc = "？";
+        else if (sent.indexOf("呢") > -1)
+            punc = "？";
+        else if (sent.indexOf("嘛") > -1)
+            punc = "？";
+        else if (sent.indexOf("看到") > -1)
+            punc = "。";
+        else if (sent.indexOf("其实") > -1)
+            punc = "。";
+        else if (sent.indexOf("发现") > -1)
+            punc = "。";
+        else if (sent.indexOf("怎么就") > -1)
+            punc = "！";
+        else
+            punc = "？";
+    else if (sent.indexOf("要么") > -1)
+        punc = "，";
+    else if (sent.indexOf("不怎") > -1)
+        punc = "。";
+    else if (sent.indexOf("怎样") > -1)
+        if (isKnowFormat(sent) == true || sent.indexOf("不怎样") > -1)
+            punc = "。";
+        else
+            punc = "？";
+    else if (sent.indexOf("么么") > -1)
+        punc = "~";
+    else if (sent.indexOf("么又") > -1)
+        if (tone == 1)
+            punc = "！";
+        else if (tone == 0)
+            punc = "。";
+        else
+            punc = "？";
+    else if (sent.indexOf("这么") > -1)
+        if (tone == 1)
+            punc = "！";
+        else if (tone == 2)
+            punc = "？";
+        else
+            punc = "。";
+    else if (sent.indexOf("那么") > -1)
+        if (tone == 1)
+            punc = "！";
+        else if (tone == 2)
+            punc = "？";
+        else
+            punc = "。";
+    else if (sent.indexOf("多么") > -1)
+        if (sent.indexOf("啊") > -1)
+            punc = "！";
+        else
+            punc = "。";
+    else if (sent.indexOf("饿了么") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("难道") > -1)
+    if (sent == "难道")
+        punc = "，";
+    else
+        punc = "？";
+else if (sent.indexOf("怎样") > -1 && sent.indexOf("不怎样") == -1)
+    if (isKnowFormat(sent) == true && sent.indexOf("我") > -1 && sent.indexOf("怎么") == -1 && sent.indexOf("知道") < sent.indexOf("怎样") && sent.indexOf("明白") < sent.indexOf("怎样") && sent.indexOf("", 0) < sent.indexOf("怎样"))
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("何") > -1)
+    if (sent.indexOf("如何") > -1)
+        if (sent.indexOf("无论") > -1 || sent.indexOf("不管") > -1 || isKnowFormat(sent) == true)
+            if (tone == 1)
+                punc = "！";
+            else
+                punc = "。";
+        else
+            punc = "？";
+    else if (sent.indexOf("任何") > -1)
+        if (tone == 2 && isKnowFormat(sent) == false)
+            punc = "？";
+        else if (tone == 1)
+            punc = "！";
+        else
+            punc = "。";
+    else if (sent.indexOf("为何") > -1)
+        if (isKnowFormat(sent) == true)
+            if (sent.indexOf("何不知") > -1)
+                punc = "？";
+            else
+                punc = "。";
+        else
+            punc = "？";
+    else if (sent.indexOf("何况") > -1 || sent.indexOf("何人") > -1 || sent.indexOf("何事") > -1 || sent.indexOf("何时") > -1 || sent.indexOf("何且") > -1)
+        punc = "？";
+    else if (sent.indexOf("何等") > -1)
+        if (sent.indexOf("啊") > -1)
+            punc = "！";
+        else
+            punc = "。";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (sent.indexOf("几何") > -1)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("谁") > -1 && sent.indexOf("谁也") == -1)
+    if (sent.indexOf("谁知") > -1 && sent.indexOf("谁知") < sent.indexOf("就"))
+        punc = "！";
+    else if (tone == 1)
+        punc = "！";
+    else
+        punc = "？";
+else if (canRegExp(sent, "当.+时") == true)
+    if (sent.indexOf("难道") > -1)
+        punc = "？";
+    else
+        punc = "。";
+else if (sent.indexOf("啥") > -1)
+    if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("哪") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (sent.indexOf("天哪") > -1)
+        punc = "！";
+    else if (sent.indexOf("哪怕") > -1)
+        punc = "。";
+    else if (sent == "哪里")
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("听说") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("貌似") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("有没有") > -1)
+    if (sent.indexOf("知道") > -1)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("至少") > -1)
+    if (sent == "至少")
+        punc = "，";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 2)
+        punc = "？";
+    else
+        punc = "！";
+else if (sent.indexOf("想必") > -1)
+    if (tone == 0)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("站住") > -1)
+    punc = "！";
+else if (sent.indexOf("然又") > -1 || sent.indexOf("又来") > -1)
+    if (tone == 2 || sent.indexOf("吗") > -1)
+        punc = "？";
+    else
+        punc = "！";
+else if (sent.indexOf("了没") > -1 && isKnowFormat(sent) == false)
+    punc = "？";
+else if (sent.indexOf("了什") > -1 && isKnowFormat(sent) == false )
+    punc = "？";
+else if (sent.indexOf("不知") > -1)
+    if (isKnowFormat(sent) == true && sent.right(2) == "知道")
+        punc = "。";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (sent.indexOf("知过") > -1)
+        punc = "。";
+    else if (sent.length()  > 7 && sent.left(3) == "不知道" && sent.right(1) == "的")
+        punc = "？";
+    else if (sent.indexOf("然不知") > -1)
+        punc = "。";
+    else if (sent.indexOf("知所") > -1)
+        punc = "。";
+    else if (sent.indexOf("知不") > -1)
+        punc = "。";
+    else if (sent.indexOf("知者") > -1)
+        punc = "。";
+    else if (sent.indexOf("知火") > -1)
+        punc = "。";
+    else if (sent.indexOf("知之") > -1)
+        punc = "。";
+    else if (sent.indexOf("知的") > -1)
+        punc = "。";
+    else if (sent.indexOf("还不") > -1 && sent.indexOf("呢") > -1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("干嘛") > -1)
+    if ( sent.indexOf("你") == -1 && isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("也算") > -1 || sent.indexOf("算是") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 1)
+        punc = "！";
+    else if (sent.indexOf("吗") > -1)
+        punc = "？";
+    else if (sent.indexOf("呢") > -1)
+        punc = "！";
+    else if (sent.indexOf("嘛") > -1)
+        punc = "！";
+    else if (sent.indexOf("吧") > -1)
+        if (sent.indexOf("这") > -1 || sent.indexOf("那") > -1 )
+            if (sent.indexOf("也算") > -1)
+                punc = "？";
+            else
+                punc = "！";
+        else
+            punc = "！";
+    else
+        punc = "。";
+else if (sent.indexOf("百分百") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("听说你") > -1 || sent.indexOf("听说他") > -1 || sent.indexOf("听说她") > -1 || sent.indexOf("听说这") > -1 || sent.indexOf("听说那") > -1)
+    if (tone == 2 || sent.indexOf("啊") > -1 || sent.indexOf("吗") > -1 || sent.indexOf("吧") > -1)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 1 || sent.indexOf("呢") > -1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("彻底") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("彻底") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("到底") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("岂有此理") > -1)
+    punc = "！";
+else if (sent.indexOf("岂") > -1)
+    punc = "？";
+else if (sent.indexOf("真的") > -1)
+    punc = "？";
+else if (sent.indexOf("而且是") > -1)
+    punc = "？";
+else if (sent.indexOf("多久") > -1)
+    if (isKnowFormat(sent) == true)
+        punc = "。";
+    else
+        punc = "？";
+else if (sent.indexOf("莫非") > -1)
+    if (sent == "莫非")
+        punc = "……";
+    else
+        punc = "？";
+else if (sent.indexOf("其实") > -1)
+    if (sent == "其实")
+        punc = "，";
+    else
+        punc = "。";
+else if (sent.indexOf("当心") > -1)
+    punc = "！";
+else if (sent.indexOf("当真") > -1)
+    punc = "！";
+else if (sent.indexOf("你敢") > -1)
+    if (sent == "你敢")
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("你确定") > -1)
+    punc = "？";
+else if (sent.indexOf("你肯定") > -1)
+    punc = "？";
+else if (sent.indexOf("定") > -1 && canRegExp(sent, "[必定|一定|肯定|定要|定把|定将|定会|定能|定可|定是|定非]") == true && sent.indexOf("不一定") == -1 && sent.indexOf("不") == -1 && sent.indexOf("确定") == -1 && sent.indexOf("稳定") == -1 && sent.indexOf("待定") == -1 && sent.indexOf("定理") == -1 && sent.indexOf("定义") == -1 && sent.indexOf("不定") == -1 && sent.indexOf("没") == -1 && sent.indexOf("定时") == -1 && sent.indexOf("定期") == -1 && sent.indexOf("安定") == -1 && sent.indexOf("设定") == -1 && sent.indexOf("定点") == -1 && sent.indexOf("平定") == -1 && sent.indexOf("定力") == -1)
+    if (sent.indexOf("你确定") > -1)
+        punc = "？";
+    else if (sent.indexOf("确定") > -1)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("滚") > -1 && sent.indexOf("打滚") == -1 && sent.indexOf("翻滚") == -1 && sent.indexOf("滚动") == -1 && sent.indexOf("靠滚") == -1)
+    punc = "！";
+else if (sent.indexOf("可恶") > -1)
+    punc = "！";
+else if (sent.indexOf("混蛋") > -1)
+    punc = "！";
+else if (sent.indexOf("变态") > -1)
+    punc = "！";
+else if (sent.indexOf("难以置信") > -1)
+    punc = "！";
+else if (sent.indexOf("相信") > -1)
+    if (sent == "我相信" || sent == "相信")
+        punc = "，";
+    else
+        punc = "！";
+else if (sent.indexOf("不信") > -1)
+    punc = "！";
+else if (sent.indexOf("加油") > -1)
+    punc = "！";
+else if (sent.indexOf("还是") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (isInQuotes == true)
+        if (tone == 2)
+            punc = "？";
+        else
+            punc = "！";
+    else if (sent == "还是")
+        punc = "？";
+    else if (sent.right(1) == "的" || sent.indexOf("果然") > -1)
+        punc = "。";
+    else if (sent.indexOf("居然") > -1 || sent.indexOf("竟然") > -1)
+        punc = "！";
+    else
+    {
+        if (QString("吗嘛呢").indexOf(_left1) > -1)
+            punc = "？";
+        else if (_left1 = "吧")
+            punc = "！";
+        else if (sent.indexOf("我还是") > -1)
+            punc = "！";
+        else if (_left1 = "但还是")
+            punc = "。";
+        else if (QString("吧啊嘛哈").indexOf(_left1) > -1)
+            punc = "！";
+        else
+            punc = "。";
+    }
+else if (sent.indexOf("不可能") > -1)
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 2)
+        punc = "！";
+    else
+        punc = "。";
+else if (sent.indexOf("不就") > -1)
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else
+        punc = "？";
+else if (sent.indexOf("斩") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("混账") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("混蛋") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (sent.indexOf("杀") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else if (sent.length()  >= 2 && sent.left(1) == "杀")
+        punc = "。";
+    else if (sent.length()  >= 2 && sent.right(1) == "杀")
+        punc = "。";
+    else if (sent.indexOf("被") > -1)
+        punc = "。";
+    else if (sent.indexOf("我不") > -1)
+        punc = "。";
+    else if (sent.indexOf("杀了你") > -1)
+        punc = "！";
+    else if (sent.indexOf("我杀") > -1)
+        punc = "。";
+    else if (sent.indexOf("杀掉") > -1)
+        punc = "！";
+    else
+        punc = "。";
+else if (sent.indexOf("死") > -1)
+    if (tone == 2)
+        punc = "？";
+    else if (tone == 0)
+        punc = "。";
+    else if (sent.indexOf("濒死") > -1)
+        punc = "。";
+    else if (sent.indexOf("死活") > -1)
+        punc = "。";
+    else if (sent.indexOf("死寂") > -1)
+        punc = "。";
+    else if (sent.indexOf("死不") > -1)
+        punc = "。";
+    else if (sent.indexOf("不死") > -1)
+        if (sent.indexOf("啊") > -1)
+            punc = "？";
+        else
+            punc = "。";
+    else
+        punc = "！";
+else if (sent.length()  >= 4 && sent.left(1) == "快")
+    if (tone == 0)
+        punc = "。";
+    else
+        punc = "！";
+else if (tone == -1 && sent.indexOf("貌似") > -1 && sent.indexOf("要") > -1)
+    punc = "。";
+else if (_left1 == "了")
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 2)
+        punc = "？";
+    else if (tone == 3)
+        punc = "~";
+    else
+        punc = "。";
+else if (_left1 == "吗")
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 3)
+        punc = "~";
+    else
+        punc = "？";
+else if (_left1 == "吧")
+    if (tone == 1)
+        punc = "！";
+    else if (tone == 0)
+        punc = "。";
+    else if (tone == 3)
+        punc = "~";
+    else if (sent.indexOf("没") > -1)
+        punc = "？";
+    else if (左2 = "心")
+        punc = "，";
+    else if (sent.indexOf("你还") > -1)
+        punc = "？";
+    else if (sent.indexOf("似乎") > -1)
+        punc = "？";
+    else if (sent.indexOf("会") > -1)
+        punc = "？";
+    else if (sent.indexOf("还") > -1)
+        punc = "。";
+    else if (sent.indexOf("酒吧") > -1)
+        punc = "。";
+    else if (sent.indexOf("网吧") > -1)
+        punc = "。";
+    else if (sent.indexOf("咖啡吧") > -1)
+        punc = "。";
+    else if (sent.indexOf("再") > -1)
+        punc = "！";
+    else if (sent.indexOf("因为") > -1)
+        punc = "！";
+    else if (sent.indexOf("就是") > -1)
+        punc = "！";
+    else if (sent.indexOf("是") > -1)
+        punc = "？";
+    else if (_left2 == "的")
+        punc = "？";
+    else
+        punc = "！";
+else if (_left1 == "啊")
+    if (sent.indexOf("还是") > -1)
+        punc = "！";
+    else if (sent.indexOf("你还") > -1)
+        punc = "？";
+    else if (sent == "不过啊")
+        punc = "，";
+    else if (sent == "但是啊")
+        punc = "，";
+    else if (sent == "你想啊")
+        punc = "，";
+    else if (sent.indexOf("啊") < sent.length() - 1 || tone == 0)
+        punc = "。";
+    else if (tone == 1)
+        punc = "！";
+    else if (tone == 2)
+        punc = "？";
+    else if (isChinese(_left2) == true)
+        punc = "！";
+    else
+        punc = "！";
+else if (_left1 == "呢")
+    if (sent.indexOf("如果") > -1)
+        punc = "？";
+    else if (sent.indexOf("要是") > -1)
+        punc = "？";
+    else
+        punc = "！";
+else if (_left1 == "呀")
+    punc = "！";
+else if (_left1 == "哦")
+    if (isChinese(_left2) == true)
+        punc = "！";
+    else
+        punc = "？";
+else if (_left1 == "哈")
+    if (左2 = "哈" || isChinese(_left2) == false)
+        punc = "！";
+    else
+        punc = "。";
+else if (_left1 == "哼")
+    punc = "！";
+else if (_left1 == "唉")
+    if (tone == 0)
+        punc = "。";
+    else if (tone == 2)
+        punc = "？";
+    else
+        punc = "！";
+else if (_left1 == "嘛")
+    if (sent.indexOf("就") > -1)
+        punc = "！";
+    else if (isKnowFormat(sent) == true)
+        punc = "。";
+    else if (sent.indexOf("你") > -1)
+        punc = "！";
+    else
+        punc = "！";
+else if (_left1 == "额")
+    if (isChinese(_left1) == false)
+        punc = "……";
+    else if (_left1 == "呃")
+        punc = "……";
+    else if (_left1 == "啦")
+        if (左2 = "的")
+            punc = "～";
+        else
+            punc = "！";
+    else if (_left1 == "嘻")
+        punc = "！";
+    else if (_left1 == "诶")
+        punc = "！";
+    else if (_left1 == "嘭")
+        punc = "！";
+    else if (_left1 == "咚")
+        punc = "！";
+    else if (_left1 == "咦")
+        punc = "？";
+    else if (_left1 == "呜")
+        if (左2 =  "嗷")
+            punc = "～～";
+        else
+            punc = "……";
+    else if (_left1 == "开")
+        if (isChinese(_left2) == false)
+            punc = "！";
+        else
+            punc = "。";
+    else if (_left1 == "嗷")
+        punc = "～～";
+    else if (_left1 == "呸")
+        punc = "！";
+    else if (_left1 == "嘿")
+        punc = "！";
+    else if (_left1 == "嗨")
+        punc = "！";
+    else if (_left1 == "哩")
+        if (左2 = "哔")
+            punc = "。";
+        else
+            punc = "！";
+    else if (_left1 == "靠")
+        punc = "！";
+    else if (_left1 == "艹")
+        punc = "！";
+    else if (_left1 == "要")
+        punc = "！";
+    else if (_left1 == "轰")
+        punc = "！";
+    else if (_left1 == "隆")
+        punc = "！";
+    else if (_left1 == "砰")
+        punc = "！";
+    else if (_left1 == "当")
+        punc = "！";
+    else if (_left1 == "呵")
+        if (isChinese(_left2) == false)
+            punc = "！";
+        else
+            punc = "。";
+    else
+        punc = "。";
